@@ -2,13 +2,13 @@ abstract class Feature {
   protected static available: () => boolean;
 }
 
-// https://developer.mozilla.org/en-US/docs/Web/API/OffscreenCanvas#browser_compatibility
-class OffscreenCanvasFeature extends Feature {
+// https://caniuse.com/webgpu
+class WebGPUFeature extends Feature {
   public static override available() {
-    return 'OffscreenCanvas' in window
+    return 'gpu' in navigator
   }
 }
 
 export {
-  OffscreenCanvasFeature
+  WebGPUFeature
 }
