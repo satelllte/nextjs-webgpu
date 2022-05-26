@@ -6,8 +6,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Next.JS with WebAssembly</title>
-        <meta name="description" content="Next.JS with WebAssembly" />
+        <title>Next.JS with WebGPU</title>
+        <meta name="description" content="Next.JS with WebGPU" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
