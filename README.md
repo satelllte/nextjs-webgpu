@@ -1,6 +1,6 @@
-# Next.js with WebAssembly
+# WORK IN PROGRESS, NOT A FINAL PRODUCT
 
-[Next.js](https://nextjs.org/)-based web application template with [WebAssembly](https://webassembly.org/) module written in [Rust](https://www.rust-lang.org/) programming language.
+[Next.js](https://nextjs.org/)-based web application with [WebGPU](https://www.w3.org/TR/webgpu/) technology.
 
 ## Try in [Gitpod](https://www.gitpod.io/)
 
