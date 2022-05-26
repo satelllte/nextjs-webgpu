@@ -12,7 +12,7 @@
 
 ## Prerequisites
 
-- [NodeJS](https://nodejs.org/) | recommended version: `16`
+- [NodeJS](https://nodejs.org/)
 
 ## Getting Started
 
