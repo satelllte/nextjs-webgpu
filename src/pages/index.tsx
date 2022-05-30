@@ -1,6 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
+import shader from '../shader.wgsl';
+
+console.info('shader: ', shader) // test loader
+
 const Home: NextPage = () => {
   return (
     <>
