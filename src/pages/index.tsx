@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
-import { Suspense } from 'react'
 import { ExternalLink } from '../components/ExternalLink'
 
 const WebGPUExample = dynamic<{}>(
