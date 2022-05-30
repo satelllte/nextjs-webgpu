@@ -1,8 +1,8 @@
 // vertex shader
 
 struct Output {
-  @builtin(position) Position : vec4<f32>;
-  @location(0) vColor : vec4<f32>;
+  @builtin(position) Position : vec4<f32>,
+  @location(0) vColor : vec4<f32>,
 };
 
 @stage(vertex)
