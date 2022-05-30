@@ -7,3 +7,4 @@ tasks:
 vscode:
   extensions:
     - EditorConfig.EditorConfig
+    - PolyMeilex.wgsl
