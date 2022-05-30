@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className='min-h-screen p-4 flex flex-col justify-center'>
-        <h1 className='text-4xl text-center font-bold'>
+        <h1 className='text-3xl sm:text-4xl lg:text-5xl text-center font-bold'>
           Welcome to <a className='text-blue-600 hover:underline' href="https://nextjs.org">Next.js</a> with WebGPU!
         </h1>
       </main>
