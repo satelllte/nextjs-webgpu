@@ -1,14 +1,11 @@
 abstract class Feature {
-  protected static available: () => boolean;
+  protected static isSupported: () => boolean;
 }
 
 // https://caniuse.com/webgpu
-class WebGPUFeature extends Feature {
-  public static override available() {
+export class WebGPUFeature extends Feature {
+  public static override isSupported() {
     return 'gpu' in navigator
   }
 }
 
-export {
-  WebGPUFeature
-}
