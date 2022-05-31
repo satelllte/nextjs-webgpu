@@ -1,4 +1,4 @@
-# WORK IN PROGRESS, NOT A FINAL PRODUCT
+# Next.js with WebGPU
 
 [Next.js](https://nextjs.org/)-based web application with [WebGPU](https://www.w3.org/TR/webgpu/) technology.
 
